@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/michaelburkhardt/DiscordBot/issues"
   },
-  "homepage": "https://github.com/michaelburkhardt/DiscordBot#readme"
+  "homepage": "https://github.com/michaelburkhardt/DiscordBot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
 }
