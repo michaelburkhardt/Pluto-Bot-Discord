@@ -10,7 +10,7 @@ client.login(config.token)
 
 client.on('ready', () => {
     console.log(`Registered as ${client.user.tag}`)
-    client.user.setStatus(`Online, testing`)
+    client.user.setPresence({ activity: { name: 'test' }, status: 'online' })
 })
 
 client.on('message', message => {
