@@ -1,5 +1,6 @@
 {
     "token": "INSERT TOKEN HERE",
     "prefix": "p!",
-    "version": "Version 1.0 Beta"
+    "version": "Version 1.0 Beta",
+    "message": "Internal Testing"
 }
