@@ -1,4 +1,5 @@
 {
     "token": "INSERT TOKEN HERE",
-    "prefix": "p!"
+    "prefix": "p!",
+    "version": "Version 1.0 Beta"
 }
