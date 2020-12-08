@@ -9,7 +9,7 @@ const config = JSON.parse(fs.readFileSync("./config.json"))
 client.login(config.token)
 
 client.on('ready', () => {
-    console.log(`Registered as ${client.user.tag}`)
+    console.log(`Logged in as ${client.user.tag}`)
     client.user.setPresence({ activity: { name: `Internal Testing | ${config.version}` }, status: 'online' })
 })
 
