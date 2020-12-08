@@ -6,3 +6,8 @@ const client = new Discord.Client()
 
 const config = JSON.parse(fs.readFileSync("./config.json"))
 
+client.login(config.token)
+
+client.on('ready', () => {
+    console.log(`Registered as ${client.user.tag}`)
+})
