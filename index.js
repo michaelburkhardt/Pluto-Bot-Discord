@@ -14,5 +14,7 @@ client.on('ready', () => {
 })
 
 client.on('message', message => {
-    message.channel.send("Michael Peroxaan")
+    if (message.content == config.prefix + "test") {
+        message.channel.send("test!")
+    }
 })
