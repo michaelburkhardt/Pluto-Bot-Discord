@@ -10,4 +10,9 @@ client.login(config.token)
 
 client.on('ready', () => {
     console.log(`Registered as ${client.user.tag}`)
+    client.user.setStatus(`Online, testing`)
+})
+
+client.on('message', message => {
+    message.channel.send("Michael Peroxaan")
 })
