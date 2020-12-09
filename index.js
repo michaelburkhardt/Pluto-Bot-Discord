@@ -17,4 +17,5 @@ client.on('message', message => {
     if (message.content == config.prefix + "test") {
         message.channel.send("test!")
     }
+
 })
